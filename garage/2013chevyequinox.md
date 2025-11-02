@@ -1,1 +1,1 @@
-#2013 Chevy Equinox
+# 2013 Chevy Equinox
