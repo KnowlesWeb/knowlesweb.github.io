@@ -1,4 +1,8 @@
-# 2012 Chevy Silverado
+---
+layout: page
+title: 2012 Chevy Silverado
+---
+# {{page.title}}
 ## Oil Change
 ### Supplies
 | Oil | Fram Filter | Purolator Filter | Drain Wrench | Filter Wrench | Other Wrench |
