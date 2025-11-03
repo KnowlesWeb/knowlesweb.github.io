@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Home
+title: Garage
 ---
 # {{ page.title }}
 This is some text.
