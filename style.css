@@ -1,20 +1,23 @@
-nav a {
-  color: #fff; /* White text color */
-  text-decoration: none; /* Remove default underline */
-  padding: 10px 20px; /* Padding around each link */
-  display: inline-block; /* Allow padding and margin to be applied */
-  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
 }
 
-nav a:hover {
-  background-color: #555; /* Darker background on hover */
+ul li {
+  float: left;
 }
 
-nav a:active {
-  background-color: #777; /* Even darker background when clicked */
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-nav a.active { /* For marking the currently active page */
-  background-color: #007bff;
-  font-weight: bold;
+ul li a:hover {
+  background-color: #111111;
 }
