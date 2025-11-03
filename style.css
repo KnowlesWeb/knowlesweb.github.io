@@ -1,5 +1,20 @@
-nav {
-  background-color: #333; /* Dark background */
-  padding: 15px 0; /* Vertical padding */
-  text-align: center; /* Center align content */
+nav a {
+  color: #fff; /* White text color */
+  text-decoration: none; /* Remove default underline */
+  padding: 10px 20px; /* Padding around each link */
+  display: inline-block; /* Allow padding and margin to be applied */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+  background-color: #555; /* Darker background on hover */
+}
+
+nav a:active {
+  background-color: #777; /* Even darker background when clicked */
+}
+
+nav a.active { /* For marking the currently active page */
+  background-color: #007bff;
+  font-weight: bold;
 }
